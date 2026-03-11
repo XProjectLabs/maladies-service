@@ -10,6 +10,7 @@ services:
     depends_on:
       - db
 
+
   web:
     image: nginx:alpine
     container_name: rareCare_nginx
